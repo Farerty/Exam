@@ -1,0 +1,30 @@
+body{
+  background-image: url("img/Fon2.png");
+  font-family: "Cookie"
+}
+.Lable{
+  font-size: 24px;
+  font-family: "Arial";
+}
+.Left{
+  margin-left: 30px;
+  float: left; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; 
+}
+.bloc{
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  text-align: justify;
+  margin-left: 20px;
+  border: 3px solid black; /* Белая рамка */
+  background-color: lightblue;
+
+}
+.bloc,.Left:after{
+  margin-right: 20px;
+}
+.ity{
+  display: inline-block;
+}
